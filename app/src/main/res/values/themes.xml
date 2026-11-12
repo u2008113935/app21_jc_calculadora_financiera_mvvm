@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.App21_jc_calculadora_financiera_mvvm" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- color de fondo del splash -->
+        <item name="windowSplashScreenBackground">@color/splash_fondo</item>
+        <!-- logo al centro: el mismo dibujo del icono y del splash animado -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <!-- tema que se aplica cuando termina el splash -->
+        <item name="postSplashScreenTheme">@style/Theme.App21_jc_calculadora_financiera_mvvm</item>
+    </style>
+
+</resources>
